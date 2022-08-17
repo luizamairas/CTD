@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {background-color: #131313;
+
+}
+
+h1 { 
+    color: white;
+font-family 'Roboto';
+
+}
+.media-picture { background-image: url(https://hbomax-images.warnermediacdn.com/images/GYKjr7A3svLHDwwEAAAB9/tile?size=640x360&partner=hbomaxcom&v=13a773108c8fc042c2effc38e06987bc&host=art-gallery.api.hbo.com&language=pt-br);
+height: 400px;
+background-size: cover;
+background-position: top;
+}
+
+.review-score {
+background-color: #e6bd09;
+color: white;
+padding: 12px;
+}
+
+h2 {
+line-height: 60px;
+color: steelblue;
+}
+
+p {
+color: #bdbdbd;
+font-family: 'Roboto';
+}
+
+a {
+color: yellow;
+
+}
