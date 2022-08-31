@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.headerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.headerLogo img {
+    padding: 20px;
+
+}
+
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+}
+
+
+
+.mainHeader ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.mainHeader ul :hover {
+    color: #39b24a;
+    transition: 0.3s;
+}
+
+h1 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.texto-verde {
+    color: #39b24a;
+}
+
+.texto-vermelho {
+    color: #fc200c;
+}
+
+
+a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.mainContent {
+    display: flex;
+    padding-top: 3rem;
+    width: 100%;
+    height: 385px;
+    justify-content: center;
+}
+
+.imagem-delivery {
+
+    width: 490px;
+    height: 350px;
+    background-image: url(./delivery.jpg);
+    background-repeat: no-repeat;
+}
+
+.imagem-delivery p {
+    text-align: center;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fc200c;
+    padding: 4px 3px 0 2px;
+}
+
+.palavraComprando {
+    color: #fff;
+}
+
+.cardapio {
+    position: relative;
+    margin-left: 1rem;
+
+    width: 491px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.top5 {
+    width: 385px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    top: -170px;
+}
+
+.top5 h3 {
+    margin-left: 69px;
+    margin-bottom: 20px;
+}
+
+.top5 ol {
+    margin-left: 51px;
+}
+
+.top5 ol li {
+    margin-bottom: 10px;
+}
+
+.imagem-fatiada {
+    display: inline-block;
+    position: relative;
+    bottom: -128px;
+    background-image: url(./PizzaFalling.jpg);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 129px;
+    margin: 80px 74px 0 325px;
+}
+
+.cardapio h2 {
+    width: 205px;
+    height: 28px;
+    font-size: 23px;
+    color: #fc200c;
+    font-weight: 700;
+    padding-top: 26px;
+    padding-left: 160px;
+    padding-right: 126px;
+}
+
+.genericFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    background-color: #222;
+    align-items: center;
+}
+
+
+.genericFooter ul :hover {
+    color: #39b24a;
+    transition: 0.3s;
+}
+
+
+.genericFooter ul li {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    height: 19px;
+    margin-bottom: 10px;
+
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 36px;
+}
+
+.footerLogo img {
+    padding: 20px;
+}
+
+.footerMenu {
+    padding-left: 40px;
+
+}
