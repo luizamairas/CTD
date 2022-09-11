@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: skyblue;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar * {
+  margin: 20px;
+}
+
+.navbar img {
+  width: 100px;
+  height: 80px;
+}
+
+.navbar h1 {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  margin-left: 45px;
+}
+
+.titulo-menu {
+  display: flex;
+  align-items: center;
+}
+
+.itens-menu {
+  display: flex;
+}
+
+.itens-menu a:hover {
+  background-color: rgb(18, 18, 183);
+  border-radius: 5px;
+}
+
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.banner-cidade {
+  background-image: url(https://cdn.wallpapersafari.com/7/39/ALym25.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.descricao-cidade {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.destaque-cidade {
+  margin-left: 44px;
+  width: 40%;
+  height: 70%;
+  margin-top: 42px;
+  box-shadow: 0 8px 32px 0 rgb(56, 56, 56);
+  backdrop-filter: blur(60px);
+  border-radius: 10px;
+  border: 1px solid rgba(68, 56, 56, 0.109);
+}
+
+.destaque-cidade p {
+  margin-left: 10px;
+  font-size: 1.25rem;
+}
+
+.destaque-cidade p b {
+  font-weight: bold;
+}
+
+.card-curiosidade {
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.082);
+  padding: 10px;
+}
+
+.card-curiosidade:hover {
+    background-color:rgba(101, 101, 112, 0.267);
+}
+
+.curiosidades {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.icone-destaque {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.card-countainer {
+  display: flex;
+  width: 26vw;
+}
+
+.card-imagem1 {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.card-imagem2 {
+  height: 250px;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.card-imagem3 {
+  height: 250px;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.texto-card {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.card-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.card-video-texto {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 351px;
+  margin-top: 104px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.footer-style {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(49, 49, 49);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.link-style-linkedin {
+  text-decoration: none;
+  color: white;
+}
+
+.link-style-github {
+  text-decoration: none;
+  color: white;
+}
+
+.image-linkedin {
+  height: 50px;
+  width: 50px;
+  margin-right: 50px;
+}
+
+.link-style-linkedin:hover{
+    background-color: rgb(25, 53, 211);
+    border-radius: 4px;
+}
+
+.link-style-github:hover{
+    background-color: rgb(25, 53, 211);
+    border-radius: 4px;
+}
+.github {
+  margin-left: 10%;
+}
+
+.image-github {
+  height: 50px;
+  width: 50px;
+}
+
+/* 1280px e 425px*/
+
+@media (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .principal {
+    flex-direction: column;
+  }
+
+  .card-video {
+    margin: 8px;
+    margin-top: 5px;
+  }
+
+  .destaque-cidade {
+    margin-left: 9px;
+    width: 96%;
+    height: 83%;
+    margin-top: 36px;
+    box-shadow: 0 8px 32px 0 rgb(56 56 56);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(68, 56, 56, 0.109);
+  }
+
+  .card-curiosidade {
+    width: 89%;
+    margin-left: 25px;
+    box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.082);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-countainer {
+    display: flex;
+    width: 100%;
+  }
+
+  .card-video-texto {
+    display: flex;
+    margin: 25px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+
+  .card-video {
+    display: flex;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-left: 21px;
+  }
+
+  #player {
+    width: 65%;
+    height: 65%;
+  }
+}
