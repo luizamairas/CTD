@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário II</title>
+  </head>
+  <body>
+
+      <header class="cabecalho">
+          <p>20% de desconto em todos os produtos!</p>
+
+          <div class="info-loja">
+              <img src="./logo.png" alt="logo da loja" />
+              <h2>Nome da Loja</h2>
+          </div>
+
+          <nav class="navegacao-links">
+              <ul>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Registrar-se</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+          </nav>
+      </header>
+
+    <main class="container">
+
+      
+        <fieldset class="fieldset-inputs">
+
+          <legend class="legend-principal">Adicionar seu super-herói</legend>
+          <p>Adicione seu personagem favorito completando as informações</p>
+
+        <div class="sections">  
+          <section class="informacoes-pessoais">
+              <form>
+                  <label for="nome">*Nome:</label>
+                  <input type="text" id="nome">
+
+                  <label for="date">Data de nascimento:</label>
+                  <input type="date" id="date">
+
+                  <label for="observacao"></label>
+                  <textarea id="observacao" cols="30" rows="13" placeholder="Descrição"></textarea>
+              </form>
+          </section>
+
+          <section class="informacoes-secundarias">
+              <form>
+                <legend class="especie">*Espécie:</legend>
+
+                <select>
+                      <option>Humano</option>
+                      <option>Asgardiano</option>
+                      <option>Kryptoniano</option>
+                      <option>Mutante</option>
+                </select>
+
+              </form>
+              
+                <div class="escolher-arquivo">
+                    <label for="file">Adicionar Foto:</label>
+                    <input type="file" id="file">
+                </div>
+
+                <fieldset class="poderes"> 
+
+                  <legend>Poderes</legend>
+                  <div>
+                      <input type="checkbox" id="checkbox">
+                      <label for="checkbox">Voar</label>
+                  </div>
+
+                  <div>
+                      <input type="checkbox" id="checkbox">
+                      <label for="checkbox">Visão de Raio</label>
+                  </div>
+
+                  <div>
+                      <input type="checkbox" id="checkbox">
+                      <label for="checkbox">Super Inteligência</label>
+                  </div>
+
+                  <div>
+                      <input type="checkbox" id="checkbox">
+                      <label for="checkbox">Regeneração</label>
+                 </div>
+                 <div class="borda"></div>
+
+                </fieldset>
+
+              <fieldset class="personalidade">
+
+                <legend>Tipo de personagem</legend>
+                <div>
+                    <input type="radio" name="personalidade">
+                    <label for="personalidade">Herói / Heroína</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="personalidade">
+                    <label for="personalidade">Vilão / Vilã</label>
+                </div>
+              </fieldset>
+          </section>
+        </div>
+              
+        </fieldset>
+
+        <button>Adicionar</button>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Todos os direitos reservados a Front End I</p>
+    </footer>
+
+  </body>
+</html>

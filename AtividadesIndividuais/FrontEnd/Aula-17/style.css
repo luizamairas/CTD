@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;  
+}
+
+.cabecalho p {
+    font-size: 15px;
+    background-color: #1cd1b0;
+    padding: 2px 23px;                                        
+}
+
+.cabecalho .info-loja {
+    display: flex;
+    align-items: center;
+    background-color: #00669f;
+}
+
+.info-loja img {
+    width: 99px;
+    height: 55px;
+    padding: 0 10px;
+}
+
+.info-loja h2 {
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 35px;
+    color: #fff;
+}
+
+.navegacao-links ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 11px 30px;
+    background-color: #001d2d;
+    list-style: none;
+}
+
+.navegacao-links a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    border-radius: 49px;
+    align-items: center;
+    background-color: #00669f;
+}
+
+.fieldset-inputs {
+    border: none;
+}
+
+.fieldset-inputs .legend-principal {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FBFFFD;
+    padding: 10px;
+    text-align: center;
+}
+
+.fieldset-inputs p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #FBFFFD;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container .sections {
+    display: flex;
+    padding: 12px;
+}
+
+.informacoes-pessoais form {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes-pessoais form label {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #FBFFFD;
+}
+
+.informacoes-pessoais form input {
+    width: 343px;
+    height: 63px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border: none;
+    padding: 13px; 
+}
+
+.informacoes-pessoais form textarea {
+    margin-top: -30px;
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 15px;
+}
+
+.informacoes-secundarias {
+    margin-left: 20px;
+}
+
+.informacoes-secundarias form {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes-secundarias .especie {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 13px;
+    margin-bottom: 15px;
+    color: #FBFFFD;
+}
+
+.informacoes-secundarias select {
+    width: 343px;
+    height: 63px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border: none;
+    padding: 13px; 
+}
+
+.informacoes-secundarias .escolher-arquivo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.informacoes-secundarias .escolher-arquivo label {
+    font-size: 18px;
+    color: #FBFFFD;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.informacoes-secundarias .escolher-arquivo input{
+    font-size: 18px;
+    margin: 21px 0 54px;
+}
+
+.informacoes-secundarias .poderes {
+    margin-bottom: 18px;
+    border: none;
+}
+
+.informacoes-secundarias .poderes input {
+    margin-bottom: 18px;
+}
+
+.informacoes-secundarias .poderes label {
+    font-size: 14px;
+    color: #FBFFFD;
+    font-weight: 300;
+}
+
+.informacoes-secundarias .poderes legend {
+    font-size: 18px;
+    color: #FBFFFD;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.informacoes-secundarias .personalidade {
+    border: none;
+}
+
+.informacoes-secundarias .poderes .borda {
+    width: 343px;
+    opacity: 0.6;
+    margin-top: 18px;
+    border-top: 1px solid #FBFFFD;
+} 
+
+.informacoes-secundarias .personalidade legend {
+    font-size: 18px;
+    color: #FBFFFD;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.informacoes-secundarias .personalidade input {
+    margin-bottom: 18px;
+}
+
+.informacoes-secundarias .personalidade label {
+    color: #FBFFFD;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container button {
+    font-size: 40px;
+    font-weight: 700;
+    width: 466px;
+    height: 67px;
+    margin: 45px 0 18px;
+    padding: 21px auto 22px;
+    border-radius: 23px;
+    background-color: #1cd1b0;
+    border: none;
+}
+
+.rodape {
+    background-color: #00669f;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+
+}
