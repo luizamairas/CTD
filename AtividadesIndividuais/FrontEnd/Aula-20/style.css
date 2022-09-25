@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-custom {
+    height: fit-content;
+    padding: 50px 30px;
+    background-color: #222222;
+
+}
+
+.navbar-container-custom {
+    padding: 0 !important;
+}
+
+.navbar-brand-custom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* gap: 5px; */
+}
+
+.navbar-brand-custom img {
+    width: 110px;
+}
+
+.navbar-brand-custom .first-title {
+    color: #F3F3F3;
+    margin: 0 !important;
+}
+
+.navbar-brand-custom .second-title {
+    color: #D01418;
+    margin: 0 !important;
+}
+
+.navbar-btn-custom {
+    font-size: 30px;
+    color: #F3F3F3;
+}
+
+.navbar-links-custom {
+    justify-content: end;
+}
+
+.nav-link-custom {
+    color: #F3F3F3;
+    font-size: 25px;
+}
+
+.nav-link-custom:hover {
+    color: #D01418;
+    transition: 0.5s;
+}
+
+.navbar-cart {
+    width: 40px;
+    color: #D01418;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imagens/backgound.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.percent {
+    color: #D01418;
+    margin: 0;
+    font-size: 60px;
+}
+
+.info {
+    color: #F3F3F3;
+    margin: 0;
+    font-size: 60px;
+}
+
+.banner-btn {
+    width: 250px;
+    height: 60px;
+    color: #F3F3F3;
+    background-color: #D01418;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-btn:hover {
+    background-color: #F3F3F3;
+    color: #222222;
+}
+
+.featured-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+    background-color: #DCDCDC;
+}
+
+.featured-products h2 {
+    font-size: 40px;
+}
+
+.card-custom {
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-custom:hover {
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+.img-custom {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.shipping {
+    color: #619D00;
+}
+
+.star-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #DCDCDC;
+
+}
+
+.star-products-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+
+}
+
+.products1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(./imagens/banner\ 1.png);
+    background-size: cover;
+}
+
+.products2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(./imagens/banner\ 2.png);
+    background-size: cover;
+}
+
+.products h2 {
+    color: #F3F3F3;
+    margin: 0;
+}
+
+.products:hover {
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #222222;
+}
+
+.footer-main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 0 40px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-brand img {
+    width: 100px;
+}
+
+.footer-first-title {
+    color: #F3F3F3;
+    margin: 0 !important;
+}
+
+.footer-second-title {
+    color: #D01418;
+    margin: 0 !important;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contact-info {
+    color: #F3F3F3;
+}
+
+.footer-contact-imgs {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-strip {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    background-color: #DCDCDC;
+}
+
+.footer-strip h3 {
+    margin: 0;
+}
