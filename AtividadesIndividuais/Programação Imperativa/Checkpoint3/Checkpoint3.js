@@ -1,5 +1,5 @@
 /* 
-  Passo 1: Crie uma função construtora que tenha como atributos: nome (string), quantidade de faltas (number) e notas (array de números). 
+  Passo 1: Crie uma função construtora que tenha como atributos: nome (string), quantidade de faltas (number) e notas (array de números) 
 */
 function Aluno(nome, qt_faltas, notas) {
     this.nome = nome;
@@ -18,21 +18,22 @@ function Aluno(nome, qt_faltas, notas) {
       return  notaDoAluno / qt_notas;
     };
     
-    //Segunda funçao da parte2: Também terá um método chamado faltas, que simplesmente aumenta o número de faltas em 1 para cada aluno específico.
+    //Segunda funçao da parte2: Também terá um método chamado faltas, que simplesmente aumenta o número de faltas em 1 para cada aluno específico
     this.faltas = function() {
         this.qt_faltas++;
     };
   
   }
   
-  //Criando os alunos e atribuindo em uma variavel constante.
+  //Criando os alunos e atribuindo em uma variavel constante
   const aluno1 = new Aluno("Aluno1", 2, [6, 8, 9, 10]);
   const aluno2 = new Aluno("Aluno2", 3, [8, 9, 7, 4]);
   const aluno3 = new Aluno("Aluno3", 1, [8.8, 8.8, 10, 8.8]);
   const aluno4 = new Aluno("Aluno4", 2, [10, 10, 9, 10]);
   const aluno5 = new Aluno("Aluno5", 2, [5, 8, 9, 10]);
   
-  //Criando uma lista com os alunos existentes.
+  
+  //Criando uma lista com os alunos existentes
   let alunos = [aluno1, aluno2, aluno3, aluno4, aluno5];
   
   
