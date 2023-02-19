@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+
+
+  h1 {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h2 {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  p {
+    color: rgb(228, 147, 25);
+    font-size: 18px;
+    line-height: 1.4em;
+  }
