@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --primary: #7898FF;
+    --secondary: #8E64C5;
+    --app-grey: #F2F2F2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+background: linear-gradient(110deg, var(--primary), var(--secondary));
+height: 100vh;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cartao{
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+}
+
+.cartao img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 5%;
+
+  }
+  
+  .cartao h2{
+  font-size: 24px;
+  margin: 10px 0;
+  margin-left: 5%;
+  }
+  
+  .cartao p{
+  font-size: 16px;
+  color: var(black);
+  margin-bottom: 20px;
+  margin-left: 5%;
+  }
+  usuario-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#usuario-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#usuario-card h2 {
+    margin: 0;
+}
+
+#usuario-card p {
+    margin: 0;
+    font-style: italic;
+}
